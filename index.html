@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+<h1>Calculatrice</h1>
+<form>
+
+  <input type="text" id="number1" placeholder="entrez un nombre">
+  <input type="text" id="number2" placeholder="entrez un nombre">
+  <input type="button" value="+" onclick="addNumbers()">
+  <input type="button" value="-" onclick="subtractNumbers()">
+  <input type="button" value="*" onclick="multiplyNumbers()">
+  <input type="button" value="/" onclick="divideNumbers()">
+  <input type="button" value="%" onclick="percentageNumbers()"><br/><br/>
+  <input type="button" value="Carre" onclick="carreNumbers()">
+  <input type="button" value="Racine" onclick="racineNumbers()">
+  <input type="button" value="Puissance" onclick="puissanceNumbers()">
+  <input type="button" value="Clear" onclick="clearNumbers()">
+  <p>Resultat: <span id="result"></span></p>
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
